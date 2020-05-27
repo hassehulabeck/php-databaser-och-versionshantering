@@ -64,6 +64,10 @@ foreach ($dbh->query("SELECT id, name FROM animals") as $row) {
         }
         ?>
     </section>
+
+    <form action="index.php" method ="post">
+        
+    </form>
 </body>
 
 </html>
